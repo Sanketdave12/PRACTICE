@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content%}
+
+{% for n1 in notice_list%}
+
+<h2><a href="/MAMARA/notice/{{n1.id}}">{{n1.name}}</a></h2>
+
+{%endfor %}
+
+{% endblock %} 

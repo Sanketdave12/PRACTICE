@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content%}
+<br>
+<br>
+
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name= 'si'>
+    <input type="submit">
+
+</form>
+
+
+{% for n1 in notice_list%}
+<h2><a href="/HEHE/notice/{{n1.id}}">{{n1.name}}</a></h2>
+
+{%endfor %}
+
+{% endblock %} 
