@@ -1,0 +1,6 @@
+name	math	phy	chem
+SD	88	88	88
+DARJI	77	77	77
+SONI	66	66	66
+PATEL	55	55	55
+BHAMO	44	44	44
